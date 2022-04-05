@@ -33,14 +33,15 @@
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
-    <TextView
-        android:id="@+id/article"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:lineSpacingExtra="@dimen/line_spacing"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_text" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/article_text" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -48,7 +49,7 @@
                 android:id="@+id/comment_button"
                 android:text="@string/add_comment"
                 android:background="@color/colorPrimary"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 />
 
         </LinearLayout>
